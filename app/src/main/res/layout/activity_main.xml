@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omega.netrush.MainActivity"
+
+    android:background="@drawable/backgroundmountain"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NETRUSH"
+        android:id="@+id/introText"
+        android:textColor="#e13939"
+        android:textSize="60sp"
+        android:textIsSelectable="true"
+        android:textStyle="normal|bold"
+        android:background="#00ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLIENTS"
+        android:id="@+id/clientButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:textColor="#494848"
+        android:textSize="45sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:id="@+id/aboutButton"
+        android:layout_below="@+id/clientButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#494848"
+        android:background="#00ffffff"
+        android:textSize="45sp"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

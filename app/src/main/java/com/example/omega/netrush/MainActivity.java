@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v == mClientButton) {
             Intent goToClient = new Intent(MainActivity.this, ClientActivity.class);
             startActivity(goToClient);
+
         }
     }
 }
