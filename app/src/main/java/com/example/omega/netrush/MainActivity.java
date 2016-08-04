@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     @Bind(R.id.clientButton) Button mClientButton;
@@ -19,9 +20,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 
-        Typeface introFont = Typeface.createFromAsset(getAssets(), "fonts/Colleged.ttf");
-        mIntroText.setTypeface(introFont);
+
+       Typeface introFont = Typeface.createFromAsset(getAssets(), "fonts/Colleged.ttf");
+       mIntroText.setTypeface(introFont);
 
         mClientButton.setOnClickListener(this);
         mAboutButton.setOnClickListener(this);
