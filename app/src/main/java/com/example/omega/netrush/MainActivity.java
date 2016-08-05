@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ButterKnife.bind(this);
 
 
-       Typeface introFont = Typeface.createFromAsset(getAssets(), "fonts/Colleged.ttf");
+       Typeface introFont = Typeface.createFromAsset(getAssets(), "fonts/monof55.ttf");
        mIntroText.setTypeface(introFont);
 
         mClientButton.setOnClickListener(this);

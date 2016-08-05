@@ -7,6 +7,55 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.omega.netrush.AboutActivity">
+    tools:context="com.example.omega.netrush.AboutActivity"
+    android:background="@drawable/about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ABOUT"
+        android:id="@+id/aboutView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:textSize="60sp"
+        android:textStyle="normal|bold"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Netrush is a company that specializes in optimizing business presence and performance in the online market place. With over 40 clients and growing we hope to continue reaching for the stars as a company."
+        android:id="@+id/aboutTextView"
+        android:layout_below="@+id/aboutView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="normal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CONTACT"
+        android:id="@+id/ContactTextView"
+        android:textColor="#FFF"
+        android:textSize="60sp"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/www"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff" />
+
+
 
 </RelativeLayout>

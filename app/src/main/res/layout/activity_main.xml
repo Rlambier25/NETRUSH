@@ -5,25 +5,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.omega.netrush.MainActivity"
 
-    android:background="@drawable/campingbackground"
-    android:backgroundTintMode="src_atop"
-    android:backgroundTint="#36fcf6f6">
+    android:background="@drawable/lightwoodbackground">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="NETRUSH"
-        android:id="@+id/introText"
-        android:textColor="#e13939"
-        android:textSize="75sp"
-        android:textIsSelectable="true"
-        android:textStyle="normal|bold"
-        android:background="#00ffffff"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="90dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -43,7 +27,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ABOUT"
+        android:text="ABOUT / CONTACT"
         android:id="@+id/aboutButton"
         android:textColor="#f3e5af"
         android:background="#00f3c57b"
@@ -53,5 +37,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="132dp"
         android:paddingTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NETRUSH"
+        android:id="@+id/introText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:textSize="90sp"
+        android:textIsSelectable="true"
+        android:paddingTop="150px" />
 
 </RelativeLayout>
